@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body,
+  html,
+  #root {
+    @apply h-full;
+  }
+  #root {
+    @apply flex flex-col;
+  }
+  main {
+    @apply grow;
+  }
+}
+
+body {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+.all {
+  margin-left: -130px;
+}
